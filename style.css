@@ -7,8 +7,28 @@
   padding: 0;
 }
 
+:root {
+  --primary-color: #000000;
+  --secondary-color: #121212;
+  --bg-color: #f4f4f4;
+}
+
+.dark-theme {
+  --primary-color: #fffafa;
+  --secondary-color: #ffffff;
+  --bg-color: #000000;
+}
+
+#theme-swap {
+    width: 1.7rem;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
 }
 
 html {
@@ -16,7 +36,7 @@ html {
 }
 
 p {
-  color: #333;
+  color: var(--primary-color);
 }
 
 /* TRANSITION */
@@ -45,20 +65,21 @@ nav {
 }
 
 a {
-    color: #333;
+    color: var(--primary-color);
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: var(--secondary-color);
 }
 
 a:hover {
-    color: #f1356d;
+    color: var(--primary-color);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: blue;
+    text-decoration-color: var(--secondary-color);
 }
 
 .logo {
     font-size: 2rem;
+    color: var(--primary-color);
 }
 
 .logo:hover {
