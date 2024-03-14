@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/desktop-navbar.css">
     <link rel="stylesheet" href="./css/mobile-navbar.css">
+    <link rel="stylesheet" href="./css/section.css">
+    <link rel="stylesheet" href="./css/profile.css">
     <link rel="stylesheet" href="./css/transform.css">
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
   </head>
@@ -37,7 +39,22 @@
         </ul>
       </div>
     </nav>
-      <script src="./js/themes.js"></script>
-      <script src="./js/menu.js"></script>
+    <section id="profile">
+      <div class="profile-image-div">
+          <img src="./images/victor-light.png" alt="Victor's picture" id="profile-image">
+      </div>
+      <div class="section-text">
+        <p class="section-p1">Hello!👋🏻 I'm</p>
+        <p class="section-title">Victor Figueroa</p>
+        <p class="section-p2">FRESH GRADUATE - CS & BBA</p>
+        <div id="profile-socials">
+          <img src="./images/linkedin-mark-light.svg" alt="LinkedIn" class="profile-icon" id="iconLkd" onclick="window.open('https://www.linkedin.com/in/victorfigma', '_blank');">
+          <img src="./images/github-mark-light.svg" alt="GitHub" class="profile-icon" id="iconGit" onclick="window.open('https://github.com/VictorFigma', '_blank');">
+          <img src="./images/contact-mark-light.png" alt="Contact" class="profile-icon" id="iconContact" onclick="document.getElementById('contact').scrollIntoView();">
+        </div>
+      </div>
+    </section>
+    <script src="./js/themes.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

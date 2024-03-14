@@ -9,7 +9,7 @@
 
 :root {
   --primary-color: #000000;
-  --secondary-color: #121212;
+  --secondary-color: #1a1a1a;
   --bg-color: #f4f4f4;
   --secondary-bg-color: #fffafa;
 
@@ -17,7 +17,7 @@
 
 .dark-theme {
   --primary-color: #f4f4f4;
-  --secondary-color: #ffffff;
+  --secondary-color: #ff4747;
   --bg-color: #000000;
   --secondary-bg-color: #111111;
 }
@@ -25,7 +25,7 @@
 .theme-swap {
     width: 1.6rem;
     margin-top: 0.2rem;
-    margin-left: 0.5rem;
+    margin-left: 2rem;
     cursor: pointer;
 }
 

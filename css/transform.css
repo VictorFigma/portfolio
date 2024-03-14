@@ -6,4 +6,27 @@
     #navbar-mobile {
       display: flex;
     }
+
+    #profile, .section-text {
+      display: block;
+    }
+
+    section, .section-text {
+      height: fit-content;
+    }
+
+    section {
+      margin: 0 5%;
+    }
+
+    .profile-image-div {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+    }
+
+    #profile-socials {
+      margin-left: 0.1rem;
+      gap: 1.25rem;
+    }
 }

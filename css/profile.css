@@ -1,0 +1,29 @@
+/* PROFILE */
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.profile-image-div {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  margin: auto 0;
+}
+
+#profile-socials {
+    display: flex;
+    justify-content: center;
+    gap: 0.85rem;
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+}
+
+.profile-icon {
+    cursor: pointer;
+    height: 2rem;
+    margin-top: 0.5rem;
+}
