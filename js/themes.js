@@ -2,7 +2,6 @@ var arrows = document.getElementsByClassName('arrow');
 var iconSwap1 = document.getElementById('theme-swap1');
 var iconSwap2 = document.getElementById('theme-swap2');
 var bttnSwap = document.getElementById('bttn-swap');
-var profileImg = document.getElementById('profile-image');
 var iconLkd = document.getElementById('iconLkd');
 var iconGit = document.getElementById('iconGit');
 var iconContact = document.getElementById('iconContact');
@@ -38,7 +37,6 @@ function setLightTheme(){
   document.body.classList.toggle('dark-theme');
   iconSwap1.src = './images/theme-light.svg';
   iconSwap2.src = './images/theme-light.svg';
-  profileImg.src = './images/victor-light.png';
   iconLkd.src = './images/linkedin-mark-light.svg';
   iconGit.src = './images/github-mark-light.svg';
   iconContact.src = './images/contact-mark-light.png';
@@ -49,7 +47,6 @@ function setDarkTheme(){
   document.body.classList.toggle('dark-theme');
   iconSwap1.src = './images/theme-dark.svg';
   iconSwap2.src = './images/theme-dark.svg';
-  profileImg.src = './images/victor-dark.png';
   iconLkd.src = './images/linkedin-mark-dark.svg';
   iconGit.src = './images/github-mark-dark.svg';
   iconContact.src = './images/contact-mark-dark.png';
