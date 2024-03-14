@@ -30,6 +30,7 @@
   
 .about-section{
     display: flex;
+    margin-top: 9rem;
 }
 
 #about-image {
@@ -42,14 +43,6 @@
 .about-text {
     margin-top: 0.2rem;
     text-align: justify;
-}
-
-.arrow {
-    position: absolute;
-    right: -10rem;
-    bottom: 0.5rem;
-    width: 60px;
-    height: 60px;
 }
 
 .emoji {
