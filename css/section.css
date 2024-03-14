@@ -5,6 +5,7 @@ section {
     height: 96vh;
     margin: 0 15rem;
     box-sizing: border-box;
+    margin-bottom: 2rem;
 }
 
 .section-text {
@@ -20,6 +21,7 @@ section {
 .section-p1 {
     font-size: 1.45rem;
     color: var(--secondary-color);
+    text-align: center;
 }
 
 .section-title {
@@ -27,6 +29,7 @@ section {
     text-align: center;
     line-height: 3rem;
     margin-top: 0.5rem;
+    font-weight: bold;
 }
 
 .section-p2 {

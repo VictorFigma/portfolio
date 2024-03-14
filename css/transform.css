@@ -19,7 +19,11 @@
       margin: 0 5%;
     }
 
-    .profile-image-div {
+    .section-p1 {
+      margin-top: 1.2rem;
+    }
+
+    .image-div-profile {
       width: 200px;
       height: 200px;
       margin: 0 auto;
@@ -30,4 +34,31 @@
       gap: 1.25rem;
     }
 
+    #about-image {
+      width: 200px;
+      height: 200px;
+    }
+
+    .arrow {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 950px){
+  #about-image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .about-details, .about-containers, .about-container, .about-section, .about-image-div {
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-image-div {
+    margin-top: 2rem;
+  }
 }

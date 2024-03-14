@@ -1,3 +1,4 @@
+var arrows = document.getElementsByClassName('arrow');
 var iconSwap1 = document.getElementById('theme-swap1');
 var iconSwap2 = document.getElementById('theme-swap2');
 var bttnSwap = document.getElementById('bttn-swap');
@@ -41,6 +42,7 @@ function setLightTheme(){
   iconLkd.src = './images/linkedin-mark-light.svg';
   iconGit.src = './images/github-mark-light.svg';
   iconContact.src = './images/contact-mark-light.png';
+  for (var i = 0; i < arrows.length; i++) arrows[i].src = './images/arrow-light.png';
 }
 
 function setDarkTheme(){
@@ -51,4 +53,5 @@ function setDarkTheme(){
   iconLkd.src = './images/linkedin-mark-dark.svg';
   iconGit.src = './images/github-mark-dark.svg';
   iconContact.src = './images/contact-mark-dark.png';
+  for (var i = 0; i < arrows.length; i++) arrows[i].src = './images/arrow-dark.png';
 }

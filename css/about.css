@@ -1,0 +1,57 @@
+/* ABOUT */
+
+#about {
+    position: relative;
+}
+
+.about-details, .about-containers {
+    display: flex;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem ;
+}
+
+.about-details {
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.about-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: var(--secondary-bg-color);
+    border-radius: 2rem;
+    text-align: center;
+}
+  
+.about-section{
+    display: flex;
+}
+
+#about-image {
+    width: 420px;
+    height: 400px;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+.about-text {
+    margin-top: 0.2rem;
+    text-align: justify;
+}
+
+.arrow {
+    position: absolute;
+    right: -10rem;
+    bottom: 0.5rem;
+    width: 60px;
+    height: 60px;
+}
+
+.emoji {
+    font-size: 3rem;
+}

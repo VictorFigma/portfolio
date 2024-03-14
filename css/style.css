@@ -40,3 +40,7 @@ a,
 .btm {
 transition: all 0.3s ease;
 }
+
+h3 {
+  color: var(--primary-color);
+}
