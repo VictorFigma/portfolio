@@ -1,0 +1,49 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #121212;
+  --bg-color: #f4f4f4;
+  --secondary-bg-color: #fffafa;
+
+}
+
+.dark-theme {
+  --primary-color: #f4f4f4;
+  --secondary-color: #ffffff;
+  --bg-color: #000000;
+  --secondary-bg-color: #111111;
+}
+
+.theme-swap {
+    width: 1.6rem;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: var(--primary-color);
+}
+
+/* TRANSITION */
+a,
+.btm {
+transition: all 0.3s ease;
+}
