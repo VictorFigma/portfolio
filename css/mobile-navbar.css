@@ -61,6 +61,11 @@
   border: 1px var(--primary-color) solid;
 }
 
+#theme-swap2 {
+  width: 1.6rem;
+  cursor: pointer;
+}
+
 .menu-links.open {
   max-height: 300px;
   border: 1px var(--primary-color) solid;

@@ -39,3 +39,10 @@ a:hover {
 .logo:hover {
     cursor: default;
 }
+
+#theme-swap1 {
+    width: 1.6rem;
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}

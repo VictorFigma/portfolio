@@ -22,13 +22,6 @@
   --secondary-bg-color: #111111;
 }
 
-.theme-swap {
-    width: 1.6rem;
-    margin-top: 0.2rem;
-    margin-left: 2rem;
-    cursor: pointer;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg-color);
