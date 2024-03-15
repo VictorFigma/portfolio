@@ -1,3 +1,6 @@
+const pixelChange1 = 950;
+const pixelChange2 = 1800;
+
 var commonParams = {
   loop: true,
   spaceBetween: 30,
@@ -5,12 +8,15 @@ var commonParams = {
   breakpoints: {
     0: {
       slidesPerView: 1,
+      slidesPerGroup: 1,
     },
-    950: {
+    [pixelChange1]: {
       slidesPerView: 2,
+      slidesPerGroup: 2,
     },
-    1800: {
+    [pixelChange2]: {
       slidesPerView: 3,
+      slidesPerGroup: 3,
     },
   },
 };
@@ -51,6 +57,23 @@ var paramsGoogle = Object.assign({}, commonParams, {
   },
 });
 
+let lastWidth = window.innerWidth;
+
+function handleResize() {
+  const windowWidth = window.innerWidth;
+
+  if ((lastWidth < pixelChange1 && windowWidth >= pixelChange1) ||
+      (lastWidth >= pixelChange1 && windowWidth < pixelChange1) ||
+      (lastWidth < pixelChange2 && windowWidth >= pixelChange2) || 
+      (lastWidth >= pixelChange2 && windowWidth < pixelChange2)) {
+
+      window.location.reload();
+  }
+  lastWidth = windowWidth;
+}
+
 var swiperOracle = new Swiper(".swiper-oracle", paramsOracle);
 var swiperCoursera = new Swiper(".swiper-coursera", paramsCoursera);
-var swiperCoursera = new Swiper(".swiper-google", paramsGoogle);
+var swiperGoogle = new Swiper(".swiper-google", paramsGoogle);
+
+window.addEventListener("resize", handleResize);
