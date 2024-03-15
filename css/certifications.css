@@ -1,0 +1,43 @@
+/* CERTIFICATIONS */
+
+#certifications {
+    position: relative;
+}
+
+.certification-company {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-top: 2rem;
+}
+
+.certification-container {
+    width: 290px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--secondary-bg-color);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.certification-container img {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.8rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.certification-details {
+    flex: 1;
+    text-align: center;
+}
+
+.certification-details h3 {
+    font-size: 1.05rem;
+    text-align: center;
+    color: var(--primary-color);
+}

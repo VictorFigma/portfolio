@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1325px){
     #navbar-desktop {
       display: none;
     }
@@ -9,6 +9,7 @@
 
     #profile, .section-text {
       display: block;
+      height: 80vh;
     }
 
     section, .section-text {
@@ -20,7 +21,7 @@
     }
 
     .section-p1 {
-      margin-top: 1.2rem;
+      margin-top: 2rem;
     }
 
     .image-div-profile {
@@ -44,25 +45,57 @@
     }
 
     .about-section{
-      margin-top: 2rem;
+      margin-top: 0.1rem;
     }
 }
 
 @media screen and (max-width: 950px){
-  #about-image {
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-  }
+    #about-image {
+      display: block;
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+    }
+   
+    .about-details, .about-containers, .about-container, .about-section, .about-image-div {
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   
+    .about-image-div {
+      margin-top: 2rem;
+    }
+   
+    .section-title {
+      font-size: 2rem;
+    }
 
-  .about-details, .about-containers, .about-container, .about-section, .about-image-div {
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .certification-company {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-top: 0.8rem;
+    }
+}
 
-  .about-image-div {
-    margin-top: 2rem;
-  }
+@media screen and (max-width: 460px){
+    .certification-company {
+      font-size: 1.3rem;
+    }
+
+    .certification-container img {
+      width: 25px;
+      height: 25px;
+      margin-right: 0.3rem;
+    }
+
+    .certification-details h3 {
+      font-size: 0.65rem;
+      margin-bottom: 0.01rem;
+    }
+
+    .certification-container {
+      width: 170px;
+      margin-bottom: 2rem;
+    }
 }

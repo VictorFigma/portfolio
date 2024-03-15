@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Victor Portfolio</title>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/swiper-custom.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/desktop-navbar.css">
     <link rel="stylesheet" href="./css/mobile-navbar.css">
@@ -12,22 +14,26 @@
     <link rel="stylesheet" href="./css/profile.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/certifications.css">
     <link rel="stylesheet" href="./css/hackathons.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/transform.css">
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
   </head>
+
   <body>
     <nav id="navbar-desktop">
       <div class="logo">Victor Figueroa</div>
       <ul class="navbar-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#hackathons">Hackathons</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><img src="./images/theme-light.svg" id="theme-swap1"></li>
       </ul>
     </nav>
+
     <nav id="navbar-mobile">
       <div class="logo">Victor Figueroa</div>
       <div class="menu-toggle">
@@ -39,12 +45,14 @@
         <ul class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
           <li><a href="#hackathons" onclick="toggleMenu()">Hackathons</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           <li id="bttn-swap"><img src="./images/theme-light.svg" id="theme-swap2"></li>
         </ul>
       </div>
     </nav>
+
     <section id="profile">
       <div class="image-div-profile">
           <img src="./images/victor-profile.png" alt="Victor's picture" id="profile-image">
@@ -60,6 +68,7 @@
         </div>
       </div>
     </section>
+
     <section id="about">
       <p class="section-p1">Get To Know More</p>
       <p class="section-title">About Me</p>
@@ -70,12 +79,12 @@
             <div class="about-container">
               <p class="emoji">👨🏻‍💻</p>
               <h3>Comuter<br>Engineering</h3>
-              <p>Bachelor - 240 ETCS</p>
+              <p>Bachelor - 240 ECTS</p>
             </div>
             <div class="about-container">
               <p class="emoji">💼</p>
               <h3>Business<br>Administration</h3>
-              <p>Bachelor - 240 ETCS</p>
+              <p>Bachelor - 240 ECTS</p>
             </div>
           </div>
           <div class="about-text">
@@ -85,34 +94,134 @@
       </div>
       <img src="./images/arrow-light.png" alt="Arrow icon" class="arrow" onclick="location.href='./index.html#skills'"/>
     </section>
+
     <section id="skills">
       <p class="section-p1">Explore my</p>
       <p class="section-title">Skills</p>
+      <img src="./images/arrow-light.png" alt="Arrow icon" class="arrow" onclick="location.href='./index.html#certifications'"/>
+    </section>
+
+    <section id="certifications">
+      <div class="certifications-header">
+          <p class="section-p1">Check my</p>
+          <p class="section-title">Certifications</p>
+      </div>
+      <h1 class="certification-company">Coursera</p>
+        <div class="swiper">
+          <div class="swiper-coursera">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="certification-container">
+                  <img src="./images/companies/coursera_logo.jpg" alt="Company Logo">
+                  <div class="certification-details">
+                      <h3>Successful<br>Negotiation</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="certification-container">
+                  <img src="./images/companies/coursera_logo.jpg" alt="Company Logo">
+                  <div class="certification-details">
+                      <h3>Learning<br>How to Learn</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-coursera-p swiper-pagination"></div>
+          </div>
+          <div class="swiper-button-next coursera-next"></div>
+          <div class="swiper-button-prev coursera-prev"></div>
+        </div>
+        <h1 class="certification-company">Google</p>
+          <div class="swiper">
+            <div class="swiper-google">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="certification-container">
+                    <img src="./images/companies/google_logo.jpg" alt="Company Logo">
+                    <div class="certification-details">
+                        <h3>Google<br>Analytics 4</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="certification-container">
+                    <img src="./images/companies/google_logo.jpg" alt="Company Logo">
+                    <div class="certification-details">
+                        <h3>AI-Powered<br>Shopping ads</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="certification-container">
+                    <img src="./images/companies/google_logo.jpg" alt="Company Logo">
+                    <div class="certification-details">
+                        <h3>Productividad<br>Personal</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-google-p swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-next google-next"></div>
+            <div class="swiper-button-prev google-prev"></div>
+          </div>
+          <h1 class="certification-company">Oracle</p>
+            <div class="swiper">
+              <div class="swiper-oracle">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="certification-container">
+                      <img src="./images/companies/oracle_logo.jpg" alt="Company Logo">
+                      <div class="certification-details">
+                          <h3>AI<br>Foundations Associate</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="certification-container">
+                      <img src="./images/companies/oracle_logo.jpg" alt="Company Logo">
+                      <div class="certification-details">
+                          <h3>Data Management<br>Foundations Associate</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="certification-container">
+                      <img src="./images/companies/oracle_logo.jpg" alt="Company Logo">
+                      <div class="certification-details">
+                          <h3>Oracle Cloud (OCI)<br>Foundations Associate</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-oracle-p swiper-pagination"></div>
+              </div>
+              <div class="swiper-button-next oracle-next"></div>
+              <div class="swiper-button-prev oracle-prev"></div>
+            </div>
       <img src="./images/arrow-light.png" alt="Arrow icon" class="arrow" onclick="location.href='./index.html#hackathons'"/>
     </section>
+
     <section id="hackathons">
-      <p class="section-p1">Check my</p>
+      <p class="section-p1">Discover my</p>
       <p class="section-title">Hackathon Achievements</p>
       <img src="./images/arrow-light.png" alt="Arrow icon" class="arrow" onclick="location.href='./index.html#contact'"/>
     </section>
+
     <section id="contact">
       <p class="section-p1">Get in Touch</p>
       <p class="section-title">Contact Me</p>
     </section>
+
     <footer>
-      <nav>
-        <div class="footer-navbar">
-          <ul class="navbar-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#hackathons">Hackathons</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-      </nav>
       <p style="text-align: center;">© 2024 Victor Figueroa</p>
     </footer>
+
     <script src="./js/themes.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/swiper-config.js"></script>
+
   </body>
 </html>
