@@ -21,6 +21,21 @@ var commonParams = {
   },
 };
 
+var paramsSkills = Object.assign({}, commonParams, {
+  loop: true,
+  spaceBetween: 30,
+  grabCursor: true,
+  navigation: {
+    nextEl: ".skills-next",
+    prevEl: ".skills-prev",
+  },
+  pagination: {
+    el: ".swiper-skills-p",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
+
 var paramsOracle = Object.assign({}, commonParams, {
   navigation: {
     nextEl: ".oracle-next",
@@ -72,6 +87,7 @@ function handleResize() {
   lastWidth = windowWidth;
 }
 
+var swiperSkills = new Swiper(".swiper-skills", paramsSkills);
 var swiperOracle = new Swiper(".swiper-oracle", paramsOracle);
 var swiperCoursera = new Swiper(".swiper-coursera", paramsCoursera);
 var swiperGoogle = new Swiper(".swiper-google", paramsGoogle);

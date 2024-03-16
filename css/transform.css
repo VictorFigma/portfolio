@@ -1,11 +1,11 @@
 @media screen and (max-height: 750px){
-  .image-div-profile {
-    margin: 0 auto;
-  }
+    .image-div-profile {
+      margin: 0 auto;
+    }
 
-  .image-div-profile img {
-    margin-right: 10rem;
-  }
+    .image-div-profile img {
+      margin-right: 10rem;
+    }
 }
 
 @media screen and (max-width: 1325px){
@@ -54,11 +54,7 @@
     }
    
     .about-image-div {
-      margin-top: 2rem;
-    }
-
-    .arrow {
-      display: none;
+      margin-top: 3rem;
     }
 
     .about-section{
@@ -70,13 +66,20 @@
       height: 280px;
     }
 
-
+    .swiper-skills {
+      margin-top: 3rem;
+    }
+    
     .footer-div{
       margin-top: 5rem;
     }
 
     .footer{
       margin-top: 20rem;
+    }
+
+    .arrow {
+      display: none;
     }
 }
 
@@ -93,11 +96,15 @@
       margin-left: auto;
       margin-right: auto;
     }
+
+    .swiper-skills {
+      margin-top: 2rem;
+    }
     
     .certification-company {
       text-align: center;
-      font-size: 1.5rem;
-      margin-top: 0.8rem;
+      font-size: 1.3rem;
+      margin-top: 2rem;
     }
 
     .contact-containers {
@@ -114,7 +121,30 @@
     }
 
     .section-title {
-      font-size: 2rem;
+      font-size: 1.5rem;
+    }
+
+    .skill-container {
+      max-width: 160px;
+    }
+  
+    .skill-title {
+      font-size: 1.4rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .skill-article {
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+  
+    .skill-article img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .skill-article h3 {
+      font-size: 1rem;
     }
 
     .certification-company {
@@ -162,6 +192,18 @@
 }
 
 @media screen and (max-width: 320px){
+  .skill-container {
+    max-width: 120px;
+  }
+
+  .skill-title {
+    font-size: 1rem;
+  }
+  
+  .skill-article {
+    margin-left: 1rem;
+  }
+
   .certification-container img {
     width: 15px;
     height: 15px;
@@ -181,6 +223,12 @@
 
   .contact-details {
     font-size: 0.6rem
+  }
+}
+
+@media screen and (max-height: 950px){
+  .swiper-skills {
+    margin-top: 3rem;
   }
 }
 
@@ -214,6 +262,10 @@
 
   .about-section{
     margin-top: 0.1rem;
+  }
+
+  .swiper-skills {
+    margin-top: 2rem;
   }
 
   .footer{

@@ -23,6 +23,7 @@ section {
     font-size: 1.45rem;
     color: var(--secondary-color);
     text-align: center;
+    margin-top: 1rem;
 }
 
 .section-title {
