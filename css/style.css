@@ -31,6 +31,18 @@
   --secondary-bg-color: #111111;
 }
 
+.footer {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.footer-div{
+  display: flex;
+  justify-content: center;
+  margin-right: 10rem;
+  margin-top: 10rem;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg-color);

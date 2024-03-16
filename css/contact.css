@@ -1,3 +1,40 @@
 #contact {
     position: relative;
 }
+
+.contact-containers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-left: 1rem;
+}
+
+.contact-container {
+    width: 380px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--secondary-bg-color);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+.contact-container img {
+    width: 60px;
+    height: 60px;
+    margin-right: 0.8rem;
+}
+
+.contact-details {
+    flex: 1;
+    text-align: center;
+}
+
+.copy-text {
+    cursor: pointer;
+    text-align: right;
+    font-size: 3rem;
+}

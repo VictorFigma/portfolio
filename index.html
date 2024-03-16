@@ -210,18 +210,37 @@
       <img src="./images/arrow-light.png" alt="Arrow icon" class="arrow" onclick="location.href='./index.html#contact'"/>
     </section>
 
-    <section id="contact">
+    <section id="contact" style=" height: 30vh;">
       <p class="section-p1">Get in Touch</p>
       <p class="section-title">Contact Me</p>
-      <img src="./images/arrow-light.png" alt="Arrow icon" class="arrow" style="transform: rotate(180deg);" onclick="location.href='./index.html#top'"/>
+      <div class="contact-containers">
+        <div class="contact-container">
+          <img src="./images/companies/gmail_logo.svg" alt="Company Logo">
+          <div class="contact-details">
+              <h3>victorfigma@gmail.com</h3>
+          </div>
+          <div class="copy-text" onclick="copyToClipboard('victorfigma@gmail.com')">📋</div>
+        </div>
+        <div class="contact-container">
+          <img src="./images/companies/linkedin_logo.png" alt="Company Logo">
+          <div class="contact-details">
+              <h3>in/victorfigma</h3>
+          </div>
+          <div class="copy-text" onclick="window.open('https://www.linkedin.com/in/victorfigma', '_blank');">↗️</div>
+        </div>
+      </div>
     </section>
-
+    
     <footer>
-      <p style="text-align: center;">© 2024 Victor Figueroa</p>
+      <div class="footer-div">
+        <img src="./images/arrow-light.png" alt="Arrow icon" class="arrow" style="transform: rotate(180deg); position:relative" onclick="location.href='./index.html#top'"/>
+      </div>
+      <p class="footer">© 2024 Victor Figueroa</p>
     </footer>
 
     <script src="./js/themes.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/copy-to-clipboard.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/swiper-config.js"></script>
 
