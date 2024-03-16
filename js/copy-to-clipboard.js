@@ -22,5 +22,5 @@ function copyToClipboard(text) {
     
     setTimeout(() => {
         document.body.removeChild(notification);
-    }, 1200);
+    }, 2400);
 }
