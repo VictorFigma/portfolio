@@ -103,7 +103,7 @@
     
     .certification-company {
       text-align: center;
-      font-size: 1.3rem;
+      font-size: 1.6rem;
       margin-top: 2rem;
     }
 
@@ -156,6 +156,12 @@
       margin-top: 1.2rem;
     }
 
+    .certification-container {
+      width: 180px;
+      margin-bottom: 2rem;
+      margin-top: 0px;
+    }
+
     .certification-container img {
       width: 25px;
       height: 25px;
@@ -165,11 +171,6 @@
     .certification-details h3 {
       font-size: 0.75rem;
       margin-bottom: 0.01rem;
-    }
-
-    .certification-container {
-      width: 180px;
-      margin-bottom: 2rem;
     }
 
     .contact-container {

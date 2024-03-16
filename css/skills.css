@@ -1,9 +1,11 @@
+/* SKILLS */
+
 #skills {
     position: relative;
 }
 
 .swiper-skills {
-    margin-top: 20vh;
+    margin-top: 16vh;
 }
 
 .skill-container {
@@ -25,6 +27,7 @@
 }
 
 .skill-article {
+    position: relative;
     display: flex;
     gap: 0.5rem;
     margin-top: 2rem;

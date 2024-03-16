@@ -4,6 +4,11 @@
     position: relative;
 }
 
+.about-section{
+    display: flex;
+    margin-top: 20vh;
+}
+
 .about-details, .about-containers {
     display: flex;
 }
@@ -26,11 +31,6 @@
     background: var(--secondary-bg-color);
     border-radius: 2rem;
     text-align: center;
-}
-  
-.about-section{
-    display: flex;
-    margin-top: 9rem;
 }
 
 #about-image {

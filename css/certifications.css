@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.certification-section{
+    margin-top: 10vh;
+}
+
 .certification-company {
     font-size: 2rem;
     color: var(--primary-color);
@@ -21,6 +25,7 @@
     margin: auto;
     align-items: center;
     margin-bottom: 2rem;
+    margin-top: 0.4rem;
 }
 
 .certification-container img {
