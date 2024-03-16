@@ -1,3 +1,13 @@
+@media screen and (max-height: 750px){
+  .image-div-profile {
+    margin: 0 auto;
+  }
+
+  .image-div-profile img {
+    margin-right: 10rem;
+  }
+}
+
 @media screen and (max-width: 1325px){
     #navbar-desktop {
       display: none;
@@ -10,6 +20,14 @@
     #profile, .section-text {
       display: block;
       height: 80vh;
+    }
+
+    .image-div-profile {
+      margin: 0 auto;
+    }
+
+    .image-div-profile img {
+      margin-right: 10rem;
     }
 
     section, .section-text {
@@ -28,7 +46,6 @@
     .image-div-profile {
       width: 300px;
       height: 300px;
-      margin: 0 auto;
     }
 
     #profile-socials {
@@ -56,6 +73,10 @@
 
     .footer-div{
       margin-top: 5rem;
+    }
+
+    .footer{
+      margin-top: 20rem;
     }
 }
 
@@ -86,6 +107,12 @@
 }
 
 @media screen and (max-width: 460px){
+    .image-div-profile {
+      width: 240px;
+      height: 240px;
+      margin: 0 auto;
+    }
+
     .section-title {
       font-size: 2rem;
     }
@@ -135,11 +162,6 @@
 }
 
 @media screen and (max-width: 320px){
-  .image-div-profile {
-    width: 210px;
-    height: 210px;
-  }
-
   .certification-container img {
     width: 15px;
     height: 15px;
@@ -165,14 +187,13 @@
 @media screen and (max-height: 750px){
   #profile, .section-text {
     display: block;
-    height: 40rem;
+    height: 45rem;
   }
 
   section, .section-text {
     height: fit-content;
   }
 
-  
   section {
     margin: 0 5%;
     padding-top: 3rem;
@@ -180,12 +201,6 @@
 
   .section-p1 {
     margin-top: 2rem;
-  }
-
-  .image-div-profile {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
   }
 
   #profile-socials {
