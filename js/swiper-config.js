@@ -22,9 +22,6 @@ var commonParams = {
 };
 
 var paramsSkills = Object.assign({}, commonParams, {
-  loop: true,
-  spaceBetween: 30,
-  grabCursor: true,
   navigation: {
     nextEl: ".skills-next",
     prevEl: ".skills-prev",
