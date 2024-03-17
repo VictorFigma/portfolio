@@ -12,7 +12,7 @@
   --secondary-color: #1a1a1a;
   --bg-color: #f4f4f4;
   --secondary-bg-color: #fffafa;
-
+  --border-skills-color: var(--primary-color);
 }
 
 .arrow {
@@ -29,6 +29,7 @@
   --secondary-color: #ff4747;
   --bg-color: #000000;
   --secondary-bg-color: #111111;
+  --border-skills-color: var(secondary-bg-color);
 }
 
 .footer {

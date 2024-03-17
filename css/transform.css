@@ -125,7 +125,8 @@
     }
 
     .skill-container {
-      max-width: 160px;
+      max-width: 167px;
+      height: 315px;
     }
   
     .skill-title {
@@ -134,8 +135,7 @@
     }
 
     .skill-article {
-      margin-top: 1rem;
-      margin-left: 2rem;
+      margin-left: 1rem;
     }
   
     .skill-article img {
@@ -194,15 +194,15 @@
 
 @media screen and (max-width: 320px){
   .skill-container {
-    max-width: 120px;
+    max-width: 125px;
   }
 
   .skill-title {
     font-size: 1rem;
   }
   
-  .skill-article {
-    margin-left: 1rem;
+  .skill-article h3{
+    font-size: 0.8rem;
   }
 
   .certification-container img {
