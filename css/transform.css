@@ -5,18 +5,18 @@
 
   .projects-container {
     width: 600px;
-    height: 850px;
+    height: 750px;
     flex-direction: column;
   }
 
   .projects-subcontainer-left {
     width: 100%;
-    height: 40%;
+    height: 38%;
   }
 
   .projects-subcontainer-left img {
-    width: 35%;
-    height: 50%;
+    width: 32%;
+    height: 46%;
   }
 
   .projects-subcontainer-left h1{
@@ -34,8 +34,8 @@
 
   .projects-subcontainer-right {
     width: 95%;
-    height: 50%;
-    margin-top: 1rem;
+    height: 48%;
+    margin-top: 0.8rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 2rem;
@@ -51,7 +51,7 @@
 
   .projects-tags {
       font-size: 1.4rem;
-      margin-top: 5rem;
+      margin-top: 6.5rem;
       justify-content: center;
       align-items: center;
   }
@@ -338,7 +338,7 @@
   }
 }
 
-@media screen and (max-height: 1073px){
+@media screen and (max-height: 979px){
   .swiper-projects, .swiper-skills, .certification-section {
     margin-top: 3rem;
   }
@@ -356,7 +356,7 @@
     margin-left: 0.1rem;
     gap: 1.25rem;
   }
-  
+
   .image-div-profile img {
     margin-right: 10rem;
   }
