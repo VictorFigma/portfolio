@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/profile.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/projects.css">
     <link rel="stylesheet" href="./css/certifications.css">
     <link rel="stylesheet" href="./css/hackathons.css">
     <link rel="stylesheet" href="./css/contact.css">
@@ -27,6 +28,7 @@
       <ul class="navbar-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="#hackathons">Hackathons</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -45,6 +47,7 @@
         <ul class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
           <li><a href="#hackathons" onclick="toggleMenu()">Hackathons</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -62,9 +65,9 @@
         <p class="section-title">Victor Figueroa</p>
         <p class="section-p2">FRESH GRADUATE - CS & BBA</p>
         <div id="profile-socials">
-          <img src="./images/linkedin-mark-light.svg" alt="LinkedIn" class="profile-icon" id="iconLkd" onclick="window.open('https://www.linkedin.com/in/victorfigma', '_blank');">
-          <img src="./images/github-mark-light.svg" alt="GitHub" class="profile-icon" id="iconGit" onclick="window.open('https://github.com/VictorFigma', '_blank');">
-          <img src="./images/contact-mark-light.png" alt="Contact" class="profile-icon" id="iconContact" onclick="copyToClipboard('victorfigma@gmail.com')">
+          <img src="./images/linkedin-mark-light.svg" alt="LinkedIn" class="profile-icon" title="Open my LinkedIn in a new window" id="iconLkd" onclick="window.open('https://www.linkedin.com/in/victorfigma', '_blank');">
+          <img src="./images/github-mark-light.svg" alt="GitHub" class="profile-icon" title="Open my GitHub in a new window" id="iconGit" onclick="window.open('https://github.com/VictorFigma', '_blank');">
+          <img src="./images/contact-mark-light.png" alt="Contact" class="profile-icon" title="Copy my email to the clipboard" id="iconContact" onclick="copyToClipboard('victorfigma@gmail.com')">
         </div>
       </div>
       <img src="./images/arrow-light.png" alt="Arrow icon" class="arrow" style="right: 165px; bottom: 70px" onclick="location.href='./index.html#about'"/>
@@ -248,6 +251,114 @@
         <div class="swiper-button-next skills-next"></div>
         <div class="swiper-button-prev skills-prev"></div>
       </div>
+      <img src="./images/arrow-light.png" alt="Arrow icon" class="arrow" onclick="location.href='./index.html#projects'"/>
+    </section>
+
+    <section id="projects">
+      <p class="section-p1">Find out about my</p>
+      <p class="section-title">Personal Projects</p>
+      <div class="swiper swiper-projects">
+        <div class="swiper-wrapper swiper-projects-slide">
+          <div class="swiper-slide">
+            <div class="projects-container">
+              <div class="projects-subcontainer-left">
+                <img src="./images/projects/csthesis.png" alt="CS Thesis">
+                <h1>CS Thesis</h1>
+                <h3>Practical Uses of Blockchain:</h3>
+                <h3>Current State and Emerging Trends</h3>
+                <div class="projects-btn-container">
+                  <button class="projects-double-btn" title="Open my thesis in a new window" onclick="window.open('https://drive.google.com/file/d/1QzIYHixplPlRCMBNXL90t8BqGuI3PDA0/view?usp=sharing', '_blank');">&nbsp;&nbsp;Thesis 🔗</button>
+                  <button class="projects-double-btn" title="Open my thesis presentation in a new window" onclick="window.open('https://drive.google.com/file/d/10v8V8WOmjfDXSak5YWWOD-QGQvZE0LpV/view?usp=sharing', '_blank');">&nbsp;&nbsp;Presentation 🔗</button>
+                </div>
+              </div>
+              <div class="projects-subcontainer-right">
+                <div class="projects-description">
+                  <h3>Description</h3>
+                  <p>Blockchain is a form of Distributed Ledger Technology where information is stored in chained blocks.
+                      This approach results in two key characteristics: the immutability of transactions,
+                      and the consequent ease of verifying their authenticity. This study has been conducted 
+                      with the aim of analyzing this technology, going beyond the popular applications in the world of finance,
+                      delving into deeper topics such as their applicability in the supply chain, in the healthcare sector,
+                      or in the field of computing.
+                      <br>&nbsp;
+                  </p>
+                </div>
+                <div class="projects-tags">
+                  <h3>Tags</h3>
+                  <a>DLT</a>
+                  <a>Blockchain</a>
+                  <a>Tokens</a>
+                  <a>Smart Contracts</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="projects-container">
+              <div class="projects-subcontainer-left">
+                <img src="./images/projects/bbathesis.png" alt="BBA Thesis">
+                <h1>BBA Thesis</h1>
+                <h3>Digital Currencies:</h3>
+                <h3>Are CBDCs the Future?</h3>
+                <div class="projects-btn-container">
+                  <button class="projects-double-btn" title="Open my thesis in a new window" onclick="window.open('https://drive.google.com/file/d/1dOp_tnial7E9wU6JmmjLZOz3XnhHoj3u/view?usp=sharing', '_blank');">&nbsp;&nbsp;Thesis 🔗</button>
+                  <button class="projects-double-btn" title="Open my thesis presentation in a new window" onclick="window.open('https://drive.google.com/file/d/1hzMhZUqBMmWKN90Fu_70PKTixAjyJXej/view?usp=sharing', '_blank');">&nbsp;&nbsp;Presentation 🔗</button>
+                </div>
+              </div>
+              <div class="projects-subcontainer-right">
+                <div class="projects-description">
+                  <h3>Description</h3>
+                  <p>Nowadays everyone is highly exposed to the internet, whether through a mobile phone, a computer, or any other type of electronic 
+                    device. Currently, online payments are carried out through private entities with 
+                    private money, not fully backed by a central bank. This study has been conducted with the aim of analyzing the reasons and implications
+                    involved in issuing the alternative that multiple governments are researching and/or developing: the CBDCs or Central Bank Digital Currencies.
+                  </p>
+                </div>
+                <div class="projects-tags">
+                  <h3>Tags</h3>
+                  <a>CBDC</a>
+                  <a>Digital Euro</a>
+                  <a>Digital Dolar</a>
+                  <a>Digital Yuan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="projects-container">
+              <div class="projects-subcontainer-left">
+                <img src="./images/projects/fintrack.png" alt="FinTrack">
+                <h1>FinTrack</h1>
+                <h3>Android APP</h3>
+                <h3>Stocks & Portfolio tracker</h3>
+                <div class="projects-btn-container">
+                  <button class="projects-double-btn" title="Open the project repository in a new window" onclick="window.open('https://github.com/VictorFigma/fintrack/releases/tag/FinTrack-v1.0-Release', '_blank');">&nbsp;&nbsp;Project 🔗</button>
+                  <button class="projects-double-btn" title="Open the YT video demo in a new window" onclick="window.open('https://youtu.be/9uaMmw6xEXU', '_blank');">&nbsp;&nbsp;Demo 🔗</button>
+                </div>
+              </div>
+              <div class="projects-subcontainer-right">
+                <div class="projects-description">
+                  <h3>Description</h3>
+                  <p>FinTrack is an Android APP that tracks the prices of a custom list of stocks.
+                     It also includes a portfolio tracking section. The only permission needed is internet.
+                      Dark & Light themes are available.
+                  </p>
+                </div>
+                <div class="projects-tags">
+                  <h3>Tags</h3>
+                  <a>Android</a>
+                  <a>Android Studio</a>
+                  <a>.apk</a>
+                  <a>Finances</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-projects-p"></div>
+        <div class="swiper-button-next projects-next"></div>
+        <div class="swiper-button-prev projects-prev"></div>
+      </div>
       <img src="./images/arrow-light.png" alt="Arrow icon" class="arrow" onclick="location.href='./index.html#certifications'"/>
     </section>
 
@@ -370,14 +481,14 @@
           <div class="contact-details">
               <h3>victorfigma@gmail.com</h3>
           </div>
-          <div class="copy-text" onclick="copyToClipboard('victorfigma@gmail.com')">📋</div>
+          <div class="copy-text" title="Copy my email to the clipboard" onclick="copyToClipboard('victorfigma@gmail.com')">📋</div>
         </div>
         <div class="contact-container">
           <img src="./images/companies/linkedin_logo.png" alt="Company Logo">
           <div class="contact-details">
               <h3>in/victorfigma</h3>
           </div>
-          <div class="copy-text" onclick="window.open('https://www.linkedin.com/in/victorfigma', '_blank');">↗️</div>
+          <div class="copy-text" title="Open my LinkedIn in a new window" onclick="window.open('https://www.linkedin.com/in/victorfigma', '_blank');">↗️</div>
         </div>
       </div>
     </section>

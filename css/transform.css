@@ -8,6 +8,69 @@
     }
 }
 
+@media screen and (max-width: 1625px){
+  .swiper-projects {
+    margin-top: 2vh;
+  }
+
+  .projects-container {
+    width: 600px;
+    height: 850px;
+    flex-direction: column;
+  }
+
+  .projects-subcontainer-left {
+    width: 100%;
+    height: 40%;
+  }
+
+  .projects-subcontainer-left img {
+    width: 35%;
+    height: 50%;
+  }
+
+  .projects-subcontainer-left h1{
+    margin-top: 0.5rem;
+  }
+
+  .projects-subcontainer-left h3{
+    font-size: 1.5rem;
+  }
+
+  .projects-double-btn {
+    font-size: 1.2rem;
+    width: 200px;
+  }
+
+  .projects-subcontainer-right {
+    width: 95%;
+    height: 50%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .projects-description h3{
+    font-size: 1.6rem;
+  }
+
+  .projects-description p{
+    font-size: 1.2rem;
+  }
+
+  .projects-tags {
+      font-size: 1.4rem;
+      margin-top: 5rem;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .projects-tags a {
+    font-size: 1.3rem;
+  }
+}
+
 @media screen and (max-width: 1325px){
     #navbar-desktop {
       display: none;
@@ -66,7 +129,7 @@
       height: 280px;
     }
 
-    .swiper-skills {
+    .swiper-projects, .swiper-skills, .certification-section {
       margin-top: 3rem;
     }
     
@@ -97,10 +160,53 @@
       margin-right: auto;
     }
 
-    .swiper-skills {
+    .swiper-projects, .swiper-skills, .certification-section {
       margin-top: 2rem;
     }
     
+    .projects-container {
+      width: 296px;
+      height: 752px;
+    }
+  
+    .projects-subcontainer-left {
+      height: 35%;
+    }
+
+    .projects-subcontainer-left img {
+      width: 30%;
+      height: 30%;
+    }
+  
+    .projects-subcontainer-left h3{
+      font-size: 1rem;
+    }
+  
+    .projects-btn-container {
+      flex-direction: column;
+      margin-left: 0.3rem;
+    }
+  
+    .projects-subcontainer-right {
+      height: 70%;
+      margin-left: 0.5rem;
+    }
+  
+    .projects-description h3{
+      font-size: 1.2rem;
+      margin-top: 1.6rem;
+      text-align: center;
+
+    }
+  
+    .projects-description p{
+      font-size: 1rem;
+    }
+  
+    .projects-tags {
+      display: none;
+    }
+
     .certification-company {
       text-align: center;
       font-size: 1.6rem;
@@ -147,6 +253,41 @@
       font-size: 1rem;
     }
 
+    .projects-container {
+      width: 180px;
+      height: 400px;
+    }
+  
+    .projects-subcontainer-left {
+      height: 48%;
+    }
+
+    .projects-subcontainer-left h3{
+      font-size: 0.62rem;
+    }
+  
+    .projects-double-btn{
+      font-size: 1rem;
+      width: 144px;
+    }
+  
+    .projects-description h3{
+      margin-top: 3rem;
+      margin-right: 0.3rem;
+    }
+
+    .projects-description p{
+      display: none;
+    }
+  
+    .projects-subcontainer-right::after {
+      content: "Use a wider screen to view the description. Protip: Rotate your device!";
+      text-align: center;
+      margin-right: 0.3rem;
+      color: var(--primary-color);
+      font-size: 0.8rem;
+    }
+  
     .certification-company {
       font-size: 1.3rem;
     }
@@ -192,7 +333,7 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 324px){
   .skill-container {
     max-width: 125px;
   }
@@ -203,6 +344,10 @@
   
   .skill-article h3{
     font-size: 0.8rem;
+  }
+
+  .projects-next, .projects-prev {
+    display: none;
   }
 
   .certification-container img {
@@ -227,13 +372,11 @@
   }
 }
 
-@media screen and (max-height: 950px){
-  .swiper-skills {
+@media screen and (max-height: 1050px){
+  .swiper-projects, .swiper-skills, .certification-section {
     margin-top: 3rem;
   }
-}
 
-@media screen and (max-height: 750px){
   #profile, .section-text {
     display: block;
     height: 45rem;
@@ -263,10 +406,6 @@
 
   .about-section{
     margin-top: 0.1rem;
-  }
-
-  .swiper-skills {
-    margin-top: 2rem;
   }
 
   .footer{

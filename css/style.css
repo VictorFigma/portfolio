@@ -13,6 +13,8 @@
   --bg-color: #f4f4f4;
   --secondary-bg-color: #fffafa;
   --border-skills-color: var(--primary-color);
+  --bg-color-bttn: #EEF2F5;
+  --bg-color-tags: #FBD46D;
 }
 
 .arrow {
@@ -30,6 +32,8 @@
   --bg-color: #000000;
   --secondary-bg-color: #111111;
   --border-skills-color: var(secondary-bg-color);
+  --bg-color-bttn: #49108B;
+  --bg-color-tags: #FD0054;
 }
 
 .footer {
