@@ -57,7 +57,7 @@
     background: var(--bg-color-bttn);
     color: var(--primary-color);
     border: 2px solid var(--border-skills-color);
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     width: 122px;
     font-weight: 550;
@@ -101,6 +101,6 @@
     font-weight: 500;
     background: var(--bg-color-tags);
     border: 2px solid black; 
-    border-radius: 20px;
+    border-radius: 8px;
     text-decoration: none;
 }
