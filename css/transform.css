@@ -1,13 +1,3 @@
-@media screen and (max-height: 750px){
-    .image-div-profile {
-      margin: 0 auto;
-    }
-
-    .image-div-profile img {
-      margin-right: 10rem;
-    }
-}
-
 @media screen and (max-width: 1625px){
   .swiper-projects {
     margin-top: 2vh;
@@ -67,7 +57,7 @@
   }
 
   .projects-tags a {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
@@ -90,7 +80,8 @@
     }
 
     .image-div-profile img {
-      margin-right: 10rem;
+      margin-right: none;
+      margin-left: 0.1rem;
     }
 
     section, .section-text {
@@ -347,14 +338,27 @@
   }
 }
 
-@media screen and (max-height: 1050px){
+@media screen and (max-height: 1073px){
   .swiper-projects, .swiper-skills, .certification-section {
     margin-top: 3rem;
   }
 
+  .image-div-profile {
+    margin: 0 auto;
+  }
+
   #profile, .section-text {
     display: block;
-    height: 45rem;
+    height: 50rem;
+  }
+
+  #profile-socials {
+    margin-left: 0.1rem;
+    gap: 1.25rem;
+  }
+  
+  .image-div-profile img {
+    margin-right: 10rem;
   }
 
   section, .section-text {
@@ -368,11 +372,6 @@
 
   .section-p1 {
     margin-top: 2rem;
-  }
-
-  #profile-socials {
-    margin-left: 0.1rem;
-    gap: 1.25rem;
   }
 
   .arrow {
