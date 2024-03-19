@@ -26,6 +26,16 @@
   cursor: pointer;
 }
 
+.light-theme {
+  --primary-color: var(--primary-color);
+  --secondary-color: var(--secondary-color);
+  --bg-color: var(--bg-color);
+  --secondary-bg-color: var(--secondary-bg-color);
+  --border-skills-color: var(--primary-color);
+  --bg-color-bttn: var(--bg-color-bttn);
+  --bg-color-tags: var(--bg-color-tags);
+}
+
 .dark-theme {
   --primary-color: #f4f4f4;
   --secondary-color: #ff4747;
