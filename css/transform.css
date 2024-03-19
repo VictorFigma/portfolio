@@ -49,6 +49,11 @@
     
 
 /* GENERAL */
+@media screen and (min-height: 1940px){
+  .section-p1 {
+    margin-top: 4rem;
+  }
+}
 @media screen and (max-width: 1625px){
   .swiper-projects {
     margin-top: 2vh;

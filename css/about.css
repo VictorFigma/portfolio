@@ -7,6 +7,7 @@
 .about-section{
     display: flex;
     margin-top: 20vh;
+    justify-content: center;
 }
 
 .about-details, .about-containers {
