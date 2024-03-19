@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
   } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     // Load browser's theme
     setDarkTheme();
+  } else {
+    setLightTheme();
   }
 
   // Switch buttons
