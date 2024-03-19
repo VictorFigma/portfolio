@@ -1,3 +1,54 @@
+/* SLIDER BTNS */
+@media screen and (max-width: 2250px){
+  .projects-next, .hackathons-next {
+    margin-right: 10rem;
+  }
+  
+  .projects-prev, .hackathons-prev {
+    margin-left: 10rem;
+  }
+}
+  
+@media screen and (max-width: 1950px){
+  .projects-next {
+    margin-right: 0px;
+  }
+  
+  .projects-prev {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1625px){
+  .projects-next {
+    margin-right: 4rem;
+  }
+  
+  .projects-prev {
+    margin-left: 4rem;
+  }
+
+  .hackathons-next {
+    margin-right: 2rem;
+  }
+
+  .hackathons-prev {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 1325px){
+  .projects-next, .hackathons-next {
+    margin-right: 0px;
+  }
+  
+  .projects-prev, .hackathons-prev {
+    margin-left: 0px;
+  }
+}
+    
+
+/* GENERAL */
 @media screen and (max-width: 1625px){
   .swiper-projects {
     margin-top: 2vh;
@@ -106,18 +157,18 @@
       margin-left: 0.1rem;
       gap: 1.25rem;
     }
-   
-    .about-image-div {
-      margin-top: 3rem;
-    }
 
     .about-section{
       margin-top: 0.1rem;
     }
 
+    .about-image-div {
+      margin-top: 0.4rem;
+    }
+
     #about-image {
-      width: 300px;
-      height: 280px;
+      width: 200px;
+      height: 190px;
     }
 
     .swiper-projects, .swiper-skills, .certification-section, .swiper-hackathons {
@@ -146,11 +197,15 @@
 }
 
 @media screen and (max-width: 950px){
+    .about-image-div {
+      margin-top: 2rem;
+    }
+
     #about-image {
       display: block;
       margin: 0 auto;
-      width: 250px;
-      height: 235px;
+      width: 240px;
+      height: 225px;
     }
 
     .about-details, .about-containers, .about-container, .about-section, .about-image-div {
@@ -163,9 +218,14 @@
       margin-top: 2rem;
     }
     
+    .skill-container {
+      margin-left: 0.3rem;
+    }
+
     .projects-container {
       width: 296px;
       height: 620px;
+      margin-left: 0.3rem;
     }
   
     .projects-subcontainer-left {
@@ -212,8 +272,9 @@
       flex-direction: column;
       align-content: center;
       width: 250px;
-      height: 400px;
+      height: 380px;
       border-radius: 20px;
+      margin-left: 0.3rem;
     }
 
     .hackathons-subcontainer-left {
@@ -244,7 +305,7 @@
     .hackathons-subcontainer-right-bottom h3{
       text-align: center;
       margin-bottom: 0.3rem;
-      margin-top: 0.3rem;
+      margin-top: 0.1rem;
     }
 
     .hackathons-subcontainer-right-bottom p{
@@ -317,7 +378,8 @@
 
     .projects-container {
       width: 180px;
-      height: 370px;
+      height: 260px;
+      border-radius: 20px;
     }
   
     .projects-subcontainer-left {
@@ -328,15 +390,18 @@
       font-size: 0.62rem;
     }
   
+    .projects-btn-container{
+      margin-top: 0.8rem;
+    }
+
     .projects-double-btn{
-      font-size: 0.9rem;
-      width: 144px;
+      font-size: 0.7rem;
+      width: 116px;
+      margin-right: 0.2rem;
     }
   
     .projects-description h3{
-      margin-top: 2.2rem;
-      margin-right: 0.3rem;
-      font-size: 0.9rem;
+      display: none;
     }
 
     .projects-description p{
@@ -346,9 +411,11 @@
     .projects-subcontainer-right::after {
       content: "Use a wider screen to view the description. Protip: Rotate your device!";
       text-align: center;
-      margin-right: 0.3rem;
       color: var(--primary-color);
-      font-size: 0.8rem;
+      font-size: 0.6rem;
+      margin-left: 1.3rem;
+      margin-top: 1.5rem;
+      width: 72%;
     }
   
     .hackathons-container {
@@ -383,7 +450,7 @@
     }
 
     .hackathons-subcontainer-right-bottom-hidden p{
-      margin-top: 0.5rem;
+      margin-top: 1rem;
       font-size: 0.7rem;
     }
 

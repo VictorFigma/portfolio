@@ -5,11 +5,11 @@
 }
 
 .swiper-hackathons {
-    margin-top: 18vh;
+    margin-top: 22vh;
 }
 
 .hackathons-containers {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .hackathons-container {
@@ -126,4 +126,16 @@
     text-decoration: none;
     font-size: 0.8rem;
     margin-right: 0.6rem;
+}
+
+.hackathons-next, .hackathons-prev {
+    margin-top: 7.7rem;
+  }
+
+.hackathons-next {
+    margin-right: 30rem;
+}
+
+.hackathons-prev {
+    margin-left: 30rem;
 }
