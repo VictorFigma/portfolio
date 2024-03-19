@@ -5,7 +5,7 @@
 
   .projects-container {
     width: 600px;
-    height: 650px;
+    height: 580px;
     flex-direction: column;
   }
 
@@ -15,7 +15,7 @@
   }
 
   .projects-subcontainer-left img {
-    width: 25%;
+    width: 22%;
     height: 44%;
   }
 
@@ -28,8 +28,8 @@
   }
 
   .projects-double-btn {
-    font-size: 1.2rem;
-    width: 200px;
+    font-size: 1rem;
+    width: 188px;
   }
 
   .projects-subcontainer-right {
@@ -42,23 +42,23 @@
   }
 
   .projects-description h3{
-    margin-top: 2.6rem;
-    font-size: 1.2rem;
+    margin-top: 3.6rem;
+    font-size: 1.1rem;
   }
 
   .projects-description p{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .projects-tags {
-    font-size: 1.2rem;
-    margin-top: 1.5rem;
+    font-size: 1rem;
+    margin-top: 1.8rem;
     justify-content: center;
     align-items: center;
   }
 
   .projects-tags a {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -165,7 +165,7 @@
     
     .projects-container {
       width: 296px;
-      height: 690px;
+      height: 620px;
     }
   
     .projects-subcontainer-left {
@@ -175,6 +175,7 @@
     .projects-subcontainer-left img {
       width: 30%;
       height: 30%;
+      margin-top: 0.5rem;
     }
   
     .projects-subcontainer-left h3{
@@ -194,12 +195,13 @@
   
     .projects-description h3{
       font-size: 1.2rem;
-      margin-top: 1.6rem;
+      margin-top: 0.8rem;
       text-align: center;
     }
   
     .projects-description p{
-      font-size: 0.9rem;
+      font-size: 0.85rem;
+      margin-top: 0.2rem;
     }
   
     .projects-tags {
@@ -210,7 +212,8 @@
       flex-direction: column;
       align-content: center;
       width: 250px;
-      height: 420px;
+      height: 400px;
+      border-radius: 20px;
     }
 
     .hackathons-subcontainer-left {
@@ -254,7 +257,7 @@
       text-align: center;
       margin-right: 0.3rem;
       color: var(--primary-color);
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       margin-top: 1.4rem;
     }
 
@@ -314,7 +317,7 @@
 
     .projects-container {
       width: 180px;
-      height: 400px;
+      height: 370px;
     }
   
     .projects-subcontainer-left {
@@ -331,8 +334,9 @@
     }
   
     .projects-description h3{
-      margin-top: 1.2rem;
+      margin-top: 2.2rem;
       margin-right: 0.3rem;
+      font-size: 0.9rem;
     }
 
     .projects-description p{
@@ -344,11 +348,12 @@
       text-align: center;
       margin-right: 0.3rem;
       color: var(--primary-color);
+      font-size: 0.8rem;
     }
   
     .hackathons-container {
       width: 190px;
-      height: 400px;
+      height: 350px;
     }
     
     .hackathons-subcontainer-left img{
@@ -378,7 +383,7 @@
     }
 
     .hackathons-subcontainer-right-bottom-hidden p{
-      margin-top: 1rem;
+      margin-top: 0.5rem;
       font-size: 0.7rem;
     }
 
