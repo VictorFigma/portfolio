@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Load browser's theme
     setDarkTheme();
   } else {
+    document.body.classList.toggle('dark-theme');
     setLightTheme();
   }
 
