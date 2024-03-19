@@ -1,3 +1,129 @@
+/* HACKATHONS */
+
 #hackathons {
     position: relative;
+}
+
+.swiper-hackathons {
+    margin-top: 18vh;
+}
+
+.hackathons-containers {
+    margin-top: 4rem;
+}
+
+.hackathons-container {
+    padding: 0.8rem;
+    background-color: var(--secondary-bg-color);
+    border: 0.5px solid var(--primary-color);
+    border-radius: 50px;
+    width: 740px;
+    height: 300px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hackathons-subcontainer-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.hackathons-subcontainer-left img {
+    width: 52%;
+    height: 40%;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.hackathons-subcontainer-left h1{
+    margin-top: 0.5rem;
+    color: var(--primary-color);
+}
+
+.hackathons-subcontainer-left h3{
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.hackathons-btn-container {
+    gap: 1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.1rem;
+}
+
+.hackathons-btn {
+    flex-direction: row;
+    padding: 3px;
+    background: var(--bg-color-bttn);
+    color: var(--primary-color);
+    border: 2px solid var(--border-skills-color);
+    border-radius: 20px;
+    cursor: pointer;
+    width: 144px;
+    font-weight: 550;
+}
+
+.hackathons-subcontainer-right {
+    width: 68%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 4rem;
+}
+
+.hackathons-subcontainer-right h3{
+    font-size: 0.95rem;
+    color: var(--primary-color);
+}
+
+.hackathons-subcontainer-right p{
+    font-size: 0.95rem;
+    color: var(--primary-color);
+}
+
+.hackathons-subcontainer-right-top {
+    height: 30%;
+    margin-top: 1.2rem;
+}
+
+.hackathons-subcontainer-right-bottom {
+    height: 60%;
+    margin-top: 1.2rem;
+}
+
+.hackathons-subcontainer-right-bottom-hidden {
+    display: none;
+}
+
+.hackathons-tags {
+    width: 100%;
+    margin-left: 5.2rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.hackathons-tags h3 {
+    margin-right: 1.3rem;
+    color: var(--primary-color);
+}
+
+.hackathons-tags a {
+    padding: 6px;
+    font-weight: 530;
+    background: var(--bg-color-tags);
+    border: 2px solid black; 
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-right: 0.6rem;
 }

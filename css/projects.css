@@ -7,7 +7,7 @@
 }
 
 .projects-container {
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: var(--secondary-bg-color);
     border: 0.5px solid var(--primary-color);
     border-radius: 50px;
@@ -28,7 +28,7 @@
 
 .projects-subcontainer-left img {
     margin-top: 2rem;
-    width: 70%;
+    width: 60%;
     height: 40%;
     border: 2px solid black;
     border-radius: 30px;
