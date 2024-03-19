@@ -61,6 +61,7 @@
     cursor: pointer;
     width: 122px;
     font-weight: 550;
+    z-index: 1;
 }
 
 .projects-subcontainer-right {

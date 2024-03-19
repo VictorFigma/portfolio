@@ -238,8 +238,8 @@
     }
 
     .projects-subcontainer-left img {
-      width: 30%;
-      height: 30%;
+      width: 34%;
+      height: 34%;
       margin-top: 0.5rem;
     }
   
@@ -289,8 +289,8 @@
     }
 
     .hackathons-subcontainer-left img{
-      width: 35%;
-      height: 35%;
+      width: 38%;
+      height: 38%;
     }
 
     .hackathons-subcontainer-right {
@@ -310,12 +310,12 @@
     .hackathons-subcontainer-right-bottom h3{
       text-align: center;
       margin-bottom: 0.3rem;
-      margin-top: 0.1rem;
+      margin-top: 0.8rem;
     }
 
     .hackathons-subcontainer-right-bottom p{
       text-align: left;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
 
     .hackathons-subcontainer-right-bottom-hidden{
@@ -323,8 +323,8 @@
       text-align: center;
       margin-right: 0.3rem;
       color: var(--primary-color);
-      font-size: 0.7rem;
-      margin-top: 1.4rem;
+      font-size: 0.5rem;
+      margin-top: 1.2rem;
     }
 
     .hackathons-tags {
@@ -391,6 +391,18 @@
       height: 48%;
     }
 
+    .projects-subcontainer-left img {
+      width: 40%;
+      height: 40%;
+      margin-top: 0.4rem;
+      margin-left: 0.1rem;
+      border-radius: 10px;
+    }
+    
+    .projects-subcontainer-left h1{
+      font-size: 0.82rem;
+    }
+
     .projects-subcontainer-left h3{
       font-size: 0.62rem;
     }
@@ -425,12 +437,13 @@
   
     .hackathons-container {
       width: 190px;
-      height: 350px;
+      height: 330px;
     }
     
     .hackathons-subcontainer-left img{
-      width: 35%;
-      height: 35%;
+      width: 54%;
+      height: 54%;
+      border-radius: 10px;
     }
 
     .hackathons-subcontainer-left h1{
@@ -448,14 +461,15 @@
     .hackathons-subcontainer-right-bottom h3{
       font-size: 0.9rem;
       margin-bottom: 0.1rem;
+      margin-top: 1rem;
     }
 
     .hackathons-subcontainer-right-bottom p{
-      font-size: 0.8rem;
+      font-size: 0.7rem;
     }
 
     .hackathons-subcontainer-right-bottom-hidden p{
-      margin-top: 1rem;
+      margin-top: 0.5rem;
       font-size: 0.7rem;
     }
 
